@@ -1,0 +1,11 @@
+.kms-home {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.kms-home__section {
+  padding: 40px;
+  background-color: #eee;
+  text-align: center;
+}
