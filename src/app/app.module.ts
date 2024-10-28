@@ -16,8 +16,7 @@ import { HomeComponent } from './pages/home/home.component';
     AppRoutingModule
   ],
   providers: [],
-  // entryComponents: [AppComponent]
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  bootstrap: [AppComponent],
 })
 export class AppModule {
   constructor( private injector: Injector) {}
