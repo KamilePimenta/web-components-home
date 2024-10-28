@@ -32,16 +32,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [
-              {
-                "bundleName": "polyfill-webcomp-es5",
-                "input": "node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"
-              },
-              {
-                "bundleName": "polyfill-webcomp",
-                "input": "node_modules/@webcomponents/webcomponentsjs/bundles/webcomponents-sd-ce-pf.js"
-              }
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -111,6 +102,6 @@
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": "f3383200-913f-4c94-86a8-2483982ef808"
   }
 }
