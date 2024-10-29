@@ -9,3 +9,15 @@
   background-color: #eee;
   text-align: center;
 }
+
+.kms-home__section-banner {
+  padding: 0;
+  background-color: none;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
