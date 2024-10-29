@@ -5,20 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { createCustomElement } from '@angular/elements';
 import { HomeComponent } from './pages/home/home.component';
-import { AssetsPathPipe } from './pipes/assets-path.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AssetsPathPipe,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
   ],
-  providers: [AssetsPathPipe],
-  bootstrap: [AppComponent],
+  bootstrap: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule {
